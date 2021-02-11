@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: #330028;
+  padding: 5px;
+  color: #fff;
+}
+
+.footer__content > p {
+  font-size: small;
+}
+
+.footer__link > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__link > a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.heart_icon:hover {
+  color: red;
+}
